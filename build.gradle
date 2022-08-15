@@ -17,7 +17,7 @@ android {
         targetSdk 30
         versionCode 1
         versionName "1.0"
-        buildConfigField("String", "GITHUB_TOKEN", localProperties['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'])
+        buildConfigField("String", "GITHUB_TOKEN", localProperties['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']) // tolong masukkan  apiKey ="token api keynya" di local.properties
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
